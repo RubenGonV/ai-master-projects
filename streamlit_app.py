@@ -526,7 +526,7 @@ GAs simulate the process of evolution by using techniques such as selection, cro
 """)
 
 with st.expander("How does it work?"):
-    st.image("assets\ag_flux_diagram.svg", caption="Genetic Algorithm Flow Diagram")
+    st.image("assets/ag_flux_diagram.svg", caption="Genetic Algorithm Flow Diagram")
     st.markdown("""
     1. **Initialization**: A population of candidate solutions (individuals) is randomly generated.
     2. **Evaluation**: Each individual is evaluated using a **fitness function** that measures how well it solves the problem.
